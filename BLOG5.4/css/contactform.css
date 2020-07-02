@@ -1,0 +1,80 @@
+.header-var li{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* いかにコンタクトフォームの装飾を行う */
+
+.contact{
+  text-align: center;
+  padding-top:30px;
+}
+
+h2{
+  padding-bottom:20px;
+  opacity: 0.8;
+}
+
+input{
+  width: 50%;
+  height: 60px;
+  margin:18px 0;
+  border: 2px solid #CCCCCC;
+  border-radius: 6px;
+  font-size:18px;
+}
+
+textarea{
+  margin:18px 0;
+  width: 50%;
+  height: 200px;
+  border: 2px solid #CCCCCC;
+  border-radius: 6px;
+  font-size:18px;
+}
+
+/* 以下でボタンのフォームを設定する */
+
+.btn{
+  background-color: #00DD00;
+  color: black;
+  font-weight: 500;
+  font-size:20px;
+  box-shadow: 0 5px #666666;
+}
+
+.btn:hover{
+  opacity: 0.7;
+}
+
+.btn:active{
+  box-shadow: 0 2px #666666;
+  margin-top:23px;
+}
+
+/* 以下でスマホ画面対応 */
+
+@media screen and (max-width:639px) {
+
+  input{
+    width: 80%;
+    height: 50px;
+    margin:15px 0;
+    border: 2px solid #CCCCCC;
+    border-radius: 6px;
+    font-size:16px;
+  }
+  
+  textarea{
+    margin:18px 0;
+    width: 80%;
+    height: 150px;
+    border: 2px solid #CCCCCC;
+    border-radius: 6px;
+    font-size:16px;
+  }
+  }

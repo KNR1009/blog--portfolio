@@ -1,0 +1,130 @@
+.header-var li{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+.post{
+  text-align: center;
+  background-color:#EEEEEE;
+  padding-top:50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h3{
+  padding-left: 85px;
+  opacity:0.7;
+  font-weight: 300;
+  font-size:23px;
+}
+
+.title{
+  width: 85%;
+  height: 60px;
+  border: 2px solid #666666;
+  font-size:35px;
+  border-radius: 5px;
+}
+
+textarea{
+  border: 2px solid #666666;
+  font-size: 20px;
+  width: 85%;
+  height: 450px;
+  border-radius: 5px;
+}
+
+::placeholder {
+  font-size: 30px;
+  opacity: 0.8;
+}
+
+.posttext::placeholder{
+  font-size: 25px;
+  opacity: 0.8;
+}
+
+
+.postimage{
+  padding:30px;
+  width: 80%;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  padding: 10px 40px;
+  color: #5D99FF;
+  border:2px solid #5D99FF;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 750px;
+  margin-top: 30px;
+}
+
+label:hover{
+opacity: 0.6;
+}
+
+
+
+  /* 以下レスポンシブ対応 */
+  @media only screen and (min-width:640px) and (max-width:1023px) {
+    label{
+      margin-right: auto;
+    }
+
+    h3{
+      padding-left: auto;
+    }
+    
+    }
+    @media screen and (max-width:639px) {
+      label{
+        margin-right: auto;
+      }
+      h3{
+        padding-left: 35px;
+      }
+
+      .title{
+        width: 90%;
+        height: 50px;
+        border: 2px solid #666666;
+        font-size:30px;
+        
+      }
+      }
+
+      /* 以下の部分にボタンを制作 */
+      .btn{
+        background-color:#5D99FF;
+        opacity: 0.8;
+        color:white;
+        font-size: 30px;
+        border-radius: 11px;
+        border: 5px solid　#5D99FF;
+        cursor: pointer;
+        width: 30%;
+        box-shadow:0 5px #666666;
+        margin-top:50px;
+        
+      }
+      
+      .btn:hover{
+        opacity:0.5;
+      }
+      
+      .btn:active{
+        box-shadow:0 2px #666666;
+        margin-top:55px;
+      }
+
+
+

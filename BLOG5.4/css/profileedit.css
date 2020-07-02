@@ -1,0 +1,100 @@
+.header-var li{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 以下はプロフィールのコード */
+
+.profile01{
+  background-color:#EEEEEE;
+  padding: 60px 30px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.profileImg{
+  padding-left: 30px;
+}
+
+.card-body h3{
+ padding-bottom: 20px;
+ letter-spacing: 0.1em;
+ opacity: 0.8;
+}
+
+.card-body h4{
+  padding-bottom: 18px;
+  opacity: 0.8;
+}
+
+.card-body{
+  padding-left:60px;
+}
+
+.text{
+  margin-bottom: 20px;
+  width: 80%;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid #DDDDDD;
+}
+
+.name{
+  border-radius: 4px;
+  border: 2px solid #DDDDDD;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  padding: 10px 40px;
+  color: #5D99FF;
+  border:2px solid #5D99FF;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+label:hover{
+opacity: 0.6;
+}
+
+.media{
+  width: 50%;
+}
+
+.btn{
+  background-color:#CCCCCC;
+  opacity: 0.9;
+  color:#333333;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 3px solid　#969696;
+  cursor: pointer;
+  width: 20%;
+  box-shadow:0 5px #666666;
+  margin-top: 25px;
+}
+
+.btn:hover{
+  opacity:0.6;
+  color: #222222;
+}
+
+.btn:active{
+  box-shadow:0 2px #666666;
+  margin-top:30px;
+}
+
+h2{
+  opacity: 0.7;
+}
+
+
+

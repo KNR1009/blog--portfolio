@@ -1,0 +1,59 @@
+.fonth2{
+  padding-left: 150px;
+  padding-top:10px;
+  font-size:50px;
+  opacity: 0.8;
+}
+
+.fonth4{
+  padding-left: 115px;
+  opacity: 0.8;
+}
+
+.entry{
+ background-image: url("../img/join.jpg");
+ background-size: cover;
+}
+
+
+form{
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+input{
+  width: 50%;
+  border-radius: 11px;
+  border: 3px solid white;
+  padding:20px 0;
+  margin:40px 0;
+}
+
+.checkbox{
+  width: 3%;
+  margin:20px 0;
+}
+
+.btn{
+  background-color:#FFFF44;
+  opacity: 0.9;
+  color:black;
+  font-size: 30px;
+  border-radius: 11px;
+  border: 5px solid　#FFFF44;
+  cursor: pointer;
+  width: 50%;
+  box-shadow:0 5px #666666;
+  margin-top:50px;
+}
+
+.btn:hover{
+  opacity:0.7;
+}
+
+.btn:active{
+  box-shadow:0 2px #666666;
+  margin-top:55px;
+}
+
+

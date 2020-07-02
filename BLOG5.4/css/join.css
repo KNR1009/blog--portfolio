@@ -1,0 +1,77 @@
+.fonth2{
+  padding-left: 150px;
+  padding-top:10px;
+  font-size:50px;
+  opacity: 0.8;
+}
+
+.fonth4{
+  padding-left: 115px;
+  opacity: 0.8;
+}
+
+/* 以下でボタンにアニメーションをつける */
+
+.btn-class{
+  padding-top:250px;
+  padding-bottom: 120px;
+}
+
+.btn{
+  background-color:#CCCCCC;
+  opacity: 0.9;
+  color:#333333;
+  font-size: 30px;
+  border-radius: 11px;
+  border: 5px solid　#969696;
+  cursor: pointer;
+  width: 35%;
+  box-shadow:0 5px #666666;
+  margin-top: 50px;
+}
+
+.btn:hover{
+  opacity:0.6;
+  color: #222222;
+}
+
+.btn:active{
+  box-shadow:0 2px #666666;
+  margin-top:57px;
+}
+
+.btn3{
+  margin-top: 70px;
+}
+/* ボタンのアニメーション終了 */
+
+.join{
+  background-image: url("../img/login.jpg");
+  background-size: cover;
+ }
+
+ @media screen and (max-width:639px) {
+   .btn{
+     width: 80%;
+   }
+
+   .btn2{
+     margin-top: 40px;
+   }
+
+   .btn3{
+    margin-top: 40px;
+  }
+
+  .btn-class{
+    padding-top:100px;
+    padding-bottom: 190px;
+  }
+  }
+
+  /* 以下でボタン作成の実験を行う */
+
+  
+  
+
+
